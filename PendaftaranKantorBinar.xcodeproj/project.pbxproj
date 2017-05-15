@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9A3A70C1EC9E98A00616311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A70B1EC9E98A00616311 /* main.m */; };
+		D9A3A70F1EC9E98A00616311 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A70E1EC9E98A00616311 /* AppDelegate.m */; };
+		D9A3A7121EC9E98A00616311 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A7111EC9E98A00616311 /* ViewController.m */; };
+		D9A3A7151EC9E98A00616311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A3A7131EC9E98A00616311 /* Main.storyboard */; };
+		D9A3A7171EC9E98A00616311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A3A7161EC9E98A00616311 /* Assets.xcassets */; };
+		D9A3A71A1EC9E98A00616311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A3A7181EC9E98A00616311 /* LaunchScreen.storyboard */; };
+		D9A3A7251EC9E98A00616311 /* PendaftaranKantorBinarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A7241EC9E98A00616311 /* PendaftaranKantorBinarTests.m */; };
+		D9A3A7341EC9F10200616311 /* ListEmployeeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A7331EC9F10200616311 /* ListEmployeeTableViewController.m */; };
+		D9A3A7371EC9F20A00616311 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A7361EC9F20A00616311 /* DetailTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9A3A7211EC9E98A00616311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9A3A6FF1EC9E98A00616311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9A3A7061EC9E98A00616311;
+			remoteInfo = PendaftaranKantorBinar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9A3A7071EC9E98A00616311 /* PendaftaranKantorBinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PendaftaranKantorBinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A3A70B1EC9E98A00616311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9A3A70D1EC9E98A00616311 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9A3A70E1EC9E98A00616311 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9A3A7101EC9E98A00616311 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9A3A7111EC9E98A00616311 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9A3A7141EC9E98A00616311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9A3A7161EC9E98A00616311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9A3A7191EC9E98A00616311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9A3A71B1EC9E98A00616311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A3A7201EC9E98A00616311 /* PendaftaranKantorBinarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendaftaranKantorBinarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A3A7241EC9E98A00616311 /* PendaftaranKantorBinarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PendaftaranKantorBinarTests.m; sourceTree = "<group>"; };
+		D9A3A7261EC9E98A00616311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A3A7321EC9F10200616311 /* ListEmployeeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListEmployeeTableViewController.h; sourceTree = "<group>"; };
+		D9A3A7331EC9F10200616311 /* ListEmployeeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListEmployeeTableViewController.m; sourceTree = "<group>"; };
+		D9A3A7351EC9F20A00616311 /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		D9A3A7361EC9F20A00616311 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9A3A7041EC9E98A00616311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A3A71D1EC9E98A00616311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9A3A6FE1EC9E98A00616311 = {
+			isa = PBXGroup;
+			children = (
+				D9A3A7091EC9E98A00616311 /* PendaftaranKantorBinar */,
+				D9A3A7231EC9E98A00616311 /* PendaftaranKantorBinarTests */,
+				D9A3A7081EC9E98A00616311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A3A7081EC9E98A00616311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A3A7071EC9E98A00616311 /* PendaftaranKantorBinar.app */,
+				D9A3A7201EC9E98A00616311 /* PendaftaranKantorBinarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A3A7091EC9E98A00616311 /* PendaftaranKantorBinar */ = {
+			isa = PBXGroup;
+			children = (
+				D9A3A7311EC9F0E000616311 /* Views */,
+				D9A3A7301EC9F0DA00616311 /* Models */,
+				D9A3A72F1EC9F0CD00616311 /* Controllers */,
+				D9A3A70D1EC9E98A00616311 /* AppDelegate.h */,
+				D9A3A70E1EC9E98A00616311 /* AppDelegate.m */,
+				D9A3A7131EC9E98A00616311 /* Main.storyboard */,
+				D9A3A7161EC9E98A00616311 /* Assets.xcassets */,
+				D9A3A7181EC9E98A00616311 /* LaunchScreen.storyboard */,
+				D9A3A71B1EC9E98A00616311 /* Info.plist */,
+				D9A3A70A1EC9E98A00616311 /* Supporting Files */,
+			);
+			path = PendaftaranKantorBinar;
+			sourceTree = "<group>";
+		};
+		D9A3A70A1EC9E98A00616311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9A3A70B1EC9E98A00616311 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9A3A7231EC9E98A00616311 /* PendaftaranKantorBinarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9A3A7241EC9E98A00616311 /* PendaftaranKantorBinarTests.m */,
+				D9A3A7261EC9E98A00616311 /* Info.plist */,
+			);
+			path = PendaftaranKantorBinarTests;
+			sourceTree = "<group>";
+		};
+		D9A3A72F1EC9F0CD00616311 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9A3A7101EC9E98A00616311 /* ViewController.h */,
+				D9A3A7111EC9E98A00616311 /* ViewController.m */,
+				D9A3A7321EC9F10200616311 /* ListEmployeeTableViewController.h */,
+				D9A3A7331EC9F10200616311 /* ListEmployeeTableViewController.m */,
+				D9A3A7351EC9F20A00616311 /* DetailTableViewController.h */,
+				D9A3A7361EC9F20A00616311 /* DetailTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D9A3A7301EC9F0DA00616311 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D9A3A7311EC9F0E000616311 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9A3A7061EC9E98A00616311 /* PendaftaranKantorBinar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A3A7291EC9E98A00616311 /* Build configuration list for PBXNativeTarget "PendaftaranKantorBinar" */;
+			buildPhases = (
+				D9A3A7031EC9E98A00616311 /* Sources */,
+				D9A3A7041EC9E98A00616311 /* Frameworks */,
+				D9A3A7051EC9E98A00616311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PendaftaranKantorBinar;
+			productName = PendaftaranKantorBinar;
+			productReference = D9A3A7071EC9E98A00616311 /* PendaftaranKantorBinar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9A3A71F1EC9E98A00616311 /* PendaftaranKantorBinarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A3A72C1EC9E98A00616311 /* Build configuration list for PBXNativeTarget "PendaftaranKantorBinarTests" */;
+			buildPhases = (
+				D9A3A71C1EC9E98A00616311 /* Sources */,
+				D9A3A71D1EC9E98A00616311 /* Frameworks */,
+				D9A3A71E1EC9E98A00616311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9A3A7221EC9E98A00616311 /* PBXTargetDependency */,
+			);
+			name = PendaftaranKantorBinarTests;
+			productName = PendaftaranKantorBinarTests;
+			productReference = D9A3A7201EC9E98A00616311 /* PendaftaranKantorBinarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9A3A6FF1EC9E98A00616311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Wisnu Riyan Pratama";
+				TargetAttributes = {
+					D9A3A7061EC9E98A00616311 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D9A3A71F1EC9E98A00616311 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9A3A7061EC9E98A00616311;
+					};
+				};
+			};
+			buildConfigurationList = D9A3A7021EC9E98A00616311 /* Build configuration list for PBXProject "PendaftaranKantorBinar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9A3A6FE1EC9E98A00616311;
+			productRefGroup = D9A3A7081EC9E98A00616311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9A3A7061EC9E98A00616311 /* PendaftaranKantorBinar */,
+				D9A3A71F1EC9E98A00616311 /* PendaftaranKantorBinarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9A3A7051EC9E98A00616311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A3A71A1EC9E98A00616311 /* LaunchScreen.storyboard in Resources */,
+				D9A3A7171EC9E98A00616311 /* Assets.xcassets in Resources */,
+				D9A3A7151EC9E98A00616311 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A3A71E1EC9E98A00616311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9A3A7031EC9E98A00616311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A3A7371EC9F20A00616311 /* DetailTableViewController.m in Sources */,
+				D9A3A7121EC9E98A00616311 /* ViewController.m in Sources */,
+				D9A3A7341EC9F10200616311 /* ListEmployeeTableViewController.m in Sources */,
+				D9A3A70F1EC9E98A00616311 /* AppDelegate.m in Sources */,
+				D9A3A70C1EC9E98A00616311 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A3A71C1EC9E98A00616311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A3A7251EC9E98A00616311 /* PendaftaranKantorBinarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9A3A7221EC9E98A00616311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9A3A7061EC9E98A00616311 /* PendaftaranKantorBinar */;
+			targetProxy = D9A3A7211EC9E98A00616311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9A3A7131EC9E98A00616311 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9A3A7141EC9E98A00616311 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9A3A7181EC9E98A00616311 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9A3A7191EC9E98A00616311 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9A3A7271EC9E98A00616311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9A3A7281EC9E98A00616311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9A3A72A1EC9E98A00616311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PendaftaranKantorBinar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = riyanpratama.PendaftaranKantorBinar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9A3A72B1EC9E98A00616311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PendaftaranKantorBinar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = riyanpratama.PendaftaranKantorBinar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9A3A72D1EC9E98A00616311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PendaftaranKantorBinarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = riyanpratama.PendaftaranKantorBinarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendaftaranKantorBinar.app/PendaftaranKantorBinar";
+			};
+			name = Debug;
+		};
+		D9A3A72E1EC9E98A00616311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PendaftaranKantorBinarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = riyanpratama.PendaftaranKantorBinarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendaftaranKantorBinar.app/PendaftaranKantorBinar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9A3A7021EC9E98A00616311 /* Build configuration list for PBXProject "PendaftaranKantorBinar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A3A7271EC9E98A00616311 /* Debug */,
+				D9A3A7281EC9E98A00616311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A3A7291EC9E98A00616311 /* Build configuration list for PBXNativeTarget "PendaftaranKantorBinar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A3A72A1EC9E98A00616311 /* Debug */,
+				D9A3A72B1EC9E98A00616311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9A3A72C1EC9E98A00616311 /* Build configuration list for PBXNativeTarget "PendaftaranKantorBinarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A3A72D1EC9E98A00616311 /* Debug */,
+				D9A3A72E1EC9E98A00616311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9A3A6FF1EC9E98A00616311 /* Project object */;
+}
